@@ -1187,7 +1187,7 @@ class MEmailUnsubscribe(mongo.Document):
     
     EMAIL_TYPE_FOLLOWS = 'follows'
     EMAIL_TYPE_REPLIES = 'replies'
-    EMAIL_TYOE_PRODUCT = 'product'
+    EMAIL_TYPE_PRODUCT = 'product'
     
     meta = {
         'collection': 'email_unsubscribes',
